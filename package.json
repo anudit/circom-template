@@ -1,0 +1,21 @@
+{
+  "name": "circom-template",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "sh ./scripts/build.sh CheckMult",
+    "test": "bun test ./tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/snarkjs": "^0.7.8",
+    "ejs": "^3.1.10",
+    "ffjavascript": "^0.3.1",
+    "snarkjs": "^0.7.5"
+  }
+}
